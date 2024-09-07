@@ -134,7 +134,7 @@
     top: 1.7em;
   }
   .company > .featured:hover{
-    background-color: var(--primary-color);
+    background-color: hsl(180, 29%, 50%);
   }
   .details {
     display: flex;
