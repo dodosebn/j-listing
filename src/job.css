@@ -7,7 +7,7 @@
 }
 
 .job-container {
-  background-color: #fff;
+  background-color: hsl(0, 0%, 100%);
   border: none;
   margin-bottom: 1.2em;
   border-radius: 7px;
@@ -93,7 +93,7 @@
 
 .part2 > * {
   margin-right: 1em;
-  background-color: var(--background-color);
+  background-color: hsl(180, 52%, 96%);
   border: none;
   padding: 0.5em;
   color: var(--primary-color);

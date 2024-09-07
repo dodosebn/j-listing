@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 ul {
   display: flex;
   background-color: #fff;
@@ -6,9 +9,9 @@ ul {
   margin-right: 10em;
   padding: 1em;
   padding-left: 3em;
-  justify-content: flex-start; 
+  justify-content: flex-start;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 ul li {
   list-style: none;
@@ -18,7 +21,7 @@ ul li {
   padding: 7px;
   margin-left: 1em;
   font-weight: 700;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -28,11 +31,11 @@ ul li {
   background-color: var(--primary-color);
   position: relative;
   padding: 5px;
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 
 .header-container li button:hover {
-  background-color: var(--very-dark-greyish); 
+  background-color: var(--very-dark-greyish);
 }
 
 .clear-all-button {
@@ -49,29 +52,27 @@ ul li {
   text-decoration: underline;
 }
 
-
 @media (max-width: 768px) {
   ul {
-      margin-left: 2em;  
-      margin-right: 2em;
-      padding-left: 1em; 
-      align-items: flex-start; 
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-left: 1em;
+    align-items: flex-start;
   }
-  ul li{
+  ul li {
     margin-bottom: 1em;
   }
 
-
   .header-container li button {
-      padding-left: 1em;
-      margin-left: 2em; 
-      width: auto;
+    padding-left: 1em;
+    margin-left: 2em;
+    width: auto;
   }
 
   .clear-all-button {
-      margin-left: 0;
-      margin-top: 10px;
-      width: 100%;
-      text-align: center; 
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
   }
 }
