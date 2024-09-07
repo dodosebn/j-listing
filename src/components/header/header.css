@@ -15,7 +15,7 @@ ul {
 }
 ul li {
   list-style: none;
-  color: var(--primary-color);
+  color: hsl(180, 29%, 50%);
   background-color: #edf6f5;
   border: none;
   padding: 7px;
@@ -28,7 +28,7 @@ ul li {
 .header-container li button {
   padding-left: 10em;
   border: none;
-  background-color: var(--primary-color);
+  background-color: hsl(180, 29%, 50%);;
   position: relative;
   padding: 5px;
   margin-left: 10px;
